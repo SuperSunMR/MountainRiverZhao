@@ -1,7 +1,7 @@
 // Copyright (c) 2021 Qihoo
 // License(BSD/GPL/...)
 // Author: blackzero
-// 01 多态的基本用法
+// 4.7.1 多态的基本用法
 
 #include<iostream>
 using namespace std;
@@ -59,7 +59,12 @@ void test01(){
     doSpeak(dog);
 }
 
+// 查看
+void test02(){
+    cout << "size of Animal = " << sizeof(Animal) << endl;
+}
 int main(){
-    test01();
+    // test01();
+    test02();
     return 0;
 }
